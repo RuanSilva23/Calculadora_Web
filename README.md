@@ -1,2 +1,2 @@
 # Calculadora_Web
- É uma calculadora padrão( não cientifica)
+ É uma calculadora padrão com os botões ("+, -, *, /, %")
