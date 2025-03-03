@@ -53,13 +53,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    color: white;
+    color: rgb(12, 10, 10);
     transition: 0.3s;
 }
 
 
 button:hover {
-    background: #666;
+    background: #111111;
 }
 
 
