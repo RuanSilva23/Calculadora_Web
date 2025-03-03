@@ -8,35 +8,42 @@
 </head>
 <body>
     <div class="Calculadora">
-        <input type="text" id="dsiplay" disabled>
+        <input type="text" id="display" disabled>
 
         <div class="buttons">
             
             <!-- Linha 1 -->
             <button class="operator" onclick="clearDisplay()"> C </button>
-            <button class="operator" onclick="addToDisplay('/')"> / </button>
-            <button class="operator" onclick="addToDisplay('*')"> * </button>
-            <button class="operator" onclick="addToDisplay('-')"> - </button>
+            <button class="operator" onclick="deleteLast()">⌫</button>
+            <button class="operator" onclick="addToDisplay('/')"> / </button>     
+            <button class="operator" onclick="calculatePorcentage('%')"> % </button>
+            
 
             <!-- Linha 2 -->
             <button onclick="addToDisplay('7')"> 7 </button>
             <button onclick="addToDisplay('8')"> 8 </button>
             <button onclick="addToDisplay('9')"> 9 </button>
-            <button class="operator" onclick="addToDisplay('+')"> + </button>
+            <button class="operator" onclick="addToDisplay('*')"> * </button>
 
             <!-- Linha 3 -->
             <button onclick="addToDisplay('4')"> 4 </button>
             <button onclick="addToDisplay('5')"> 5 </button>
             <button onclick="addToDisplay('6')"> 6 </button>
+            <button class="operator" onclick="addToDisplay('-')"> - </button>
 
             <!-- Linha 4 -->
             <button onclick="addToDisplay('1')"> 1 </button>
             <button onclick="addToDisplay('2')"> 2 </button>
             <button onclick="addToDisplay('3')"> 3 </button>
+            <button class="operator" onclick="addToDisplay('+')"> + </button>
+
 
             <!-- Linha 5 -->
+            
+            <button onclick="addToDisplay('00')">00</button>
             <button onclick="addToDisplay('0')"> 0 </button>
             <button onclick="addToDisplay('.')"> . </button>
+            <button class="operator" onclick="calculateResult()"> = </button>
 
         </div>
     </div>
