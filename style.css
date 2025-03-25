@@ -11,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(135deg, rgb(238, 138, 193), lightyellow, lightblue);
 }
 
 
